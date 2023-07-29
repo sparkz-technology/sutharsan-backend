@@ -29,7 +29,7 @@ Start the backend server by running `node app.js` or `npm start` in the terminal
 **Request Payload:**
 ```json
 {
-  "fName": "John Doe",
+  "fName": "sparkz",
   "message": "Hello, this is a test message!"
 }
 ```
