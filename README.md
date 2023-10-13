@@ -51,3 +51,5 @@ Start the backend server by running `node app.js` or `npm start` in the terminal
   "error": "Something went wrong."
 }
 ```
+
+// Path: sutharsan-backend/app.js
