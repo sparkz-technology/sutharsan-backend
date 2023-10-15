@@ -1,0 +1,393 @@
+2023-10-14T13:14:11.331Z [error]: Error: Please upload a file
+    at createProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:25:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+2023-10-14T13:22:50.080Z [error]: Error: Please upload a file
+    at createProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:23:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+2023-10-14T13:23:23.818Z [error]: Error: Please upload a file
+    at createProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:23:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+2023-10-14T13:23:36.397Z [error]: Error: Please upload a file
+    at createProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:23:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+2023-10-14T13:23:50.756Z [error]: Error: Please upload a file
+    at createProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:23:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+2023-10-14T13:25:40.474Z [error]: ValidationError: Project validation failed: imageUrl: Path `imageUrl` is required.
+    at Document.invalidate (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\document.js:3173:32)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\document.js:2966:17
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1367:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-14T13:32:28.900Z [error]: CastError: Cast to ObjectId failed for value "id=652a97243f438738eb234b9d" (type string) at path "_id" for model "Project"
+    at ObjectId.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1631:15)
+    at cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4910:12)
+    at Query._castConditions (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2232:10)
+    at model.Query._findOne (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2519:8)
+    at model.Query.exec (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4430:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:20:21)
+2023-10-14T13:34:09.215Z [error]: CastError: Cast to ObjectId failed for value "id=652a97243f438738eb234b9d" (type string) at path "_id" for model "Project"
+    at ObjectId.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1631:15)
+    at cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4910:12)
+    at Query._castConditions (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2232:10)
+    at model.Query._findOne (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2519:8)
+    at model.Query.exec (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4430:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:20:21)
+2023-10-14T13:34:18.322Z [error]: CastError: Cast to ObjectId failed for value "id=652a97243f438738eb234b9d" (type string) at path "_id" for model "Project"
+    at ObjectId.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1631:15)
+    at cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4910:12)
+    at Query._castConditions (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2232:10)
+    at model.Query._findOne (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2519:8)
+    at model.Query.exec (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4430:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:20:21)
+2023-10-14T13:35:04.681Z [error]: CastError: Cast to ObjectId failed for value "NaN" (type number) at path "_id" for model "Project"
+    at ObjectId.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1631:15)
+    at cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4910:12)
+    at Query._castConditions (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2232:10)
+    at model.Query._findOne (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2519:8)
+    at model.Query.exec (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4430:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:20:21)
+2023-10-14T13:38:21.557Z [error]: CastError: Cast to ObjectId failed for value "id=652a97243f438738eb234b9d" (type string) at path "_id" for model "Project"
+    at ObjectId.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\schematype.js:1631:15)
+    at cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\cast.js:375:32)
+    at Query.cast (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4910:12)
+    at Query._castConditions (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2232:10)
+    at model.Query._findOne (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:2519:8)
+    at model.Query.exec (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\mongoose\lib\query.js:4430:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:21:21)
+2023-10-14T13:50:19.624Z [error]: TypeError: project.save is not a function
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:28:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T14:04:44.400Z [error]: TypeError: project.updateMany is not a function
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:28:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T14:07:06.463Z [error]: TypeError: Object.key is not a function
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:27:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T14:32:59.603Z [error]: TypeError: Cannot read properties of undefined (reading 'validate')
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:28
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:365:14)
+2023-10-14T14:35:00.458Z [error]: TypeError: Cannot read properties of undefined (reading 'validate')
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:28
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:365:14)
+2023-10-14T14:35:06.276Z [error]: TypeError: Cannot read properties of undefined (reading 'validate')
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:28
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:365:14)
+2023-10-14T14:36:49.551Z [error]: TypeError: schema.validate is not a function
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:28
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:365:14)
+2023-10-14T14:38:41.960Z [error]: TypeError: schema.validate is not a function
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:28
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:365:14)
+2023-10-14T14:40:38.726Z [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:278:15)
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:29:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T15:38:22.757Z [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:278:15)
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:29:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T15:43:18.941Z [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:278:15)
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:29:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T15:47:41.980Z [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\response.js:278:15)
+    at updateProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:29:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T15:52:49.414Z [error]: ReferenceError: Cannot access 'error' before initialization
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:31:29
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:53:59.580Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:21
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:55:55.433Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:55:59.449Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:57:52.785Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:58:40.633Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:58:44.230Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T15:59:11.984Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:33:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T16:06:23.772Z [error]: Error: "value" length must be at least 3 characters long
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:32:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:28:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-14T16:10:39.149Z [error]: TypeError: project.remove is not a function
+    at deleteProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:43:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T16:11:44.974Z [error]: Error: Project not found
+    at deleteProject (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/project.js:39:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-14T16:33:09.053Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:52:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)
+2023-10-14T16:33:42.574Z [error]: Error: "imageUrl" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:52:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)
+2023-10-14T16:34:24.014Z [error]: Error: "percentage" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:52:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)
+2023-10-14T16:34:52.085Z [error]: Error: "category" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:52:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)
+2023-10-14T16:35:26.169Z [error]: Error: Please upload a file
+    at createSkill (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/skill.js:6:21)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:57:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+2023-10-14T17:06:15.493Z [error]: Error: "socialMedia" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:59:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)
+2023-10-14T17:10:21.115Z [error]: Error: "socialMedialink" is required
+    at file:///C:/Users/sparkz/Desktop/sutharsan-backend/middlewares/validator.js:59:21
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sparkz\Desktop\sutharsan-backend\node_modules\express\lib\router\index.js:47:12)

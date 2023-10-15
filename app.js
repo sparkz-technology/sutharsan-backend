@@ -1,65 +1,43 @@
-const express = require("express");
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
+import morgan from "morgan";
+import fs from "fs";
+
+import errorHandler from "./middlewares/errorHandler.js";
+import { logInfo } from "./utils/logger.js";
+import constant from "./config/constant.js";
+import mailRouter from "./routes/mail.js";
+import projectRouter from "./routes/project.js";
+import skillRouter from "./routes/skill.js";
+import contactLinkRouter from "./routes/contactLink.js";
+
 const app = express();
-const bodyParser = require("body-parser");
-const nodemailer = require("nodemailer");
-const cors = require("cors");
-require("dotenv").config();
-const PORT = process.env.PORT || 3000;
-app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.post("/api/form", (req, res) => {
-  const { fName: subject, message: message } = req.body;
-  const transporter = nodemailer.createTransport({
-    service: "Gmail",
-    auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
-    },
-  });
+app.use(cors());
 
-  const mailOptions = {
-    from: process.env.YOUR_EMAIL,
-    to: process.env.YOUR_EMAIL,
-    subject,
-    text: message,
-  };
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.log(error);
-      res.status(500).send({ error: "Something went wrong." });
-    } else {
-      console.log("Email sent successfully", info.response);
-      res.status(200).send({ success: "Email sent successfully" });
-    }
-  });
-});
-app.post("/api/ip", (req, res) => {
-  const { ipAddress: message } = req.body;
-  const transporter = nodemailer.createTransport({
-    service: "Gmail",
-    auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
-    },
-  });
+const { NODE_ENV } = constant;
 
-  const mailOptions = {
-    from: process.env.YOUR_EMAIL,
-    to: process.env.YOUR_EMAIL,
-    subject: "IP Address ",
-    text: message,
-  };
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.log(error);
-      res.status(500).send({ error: "Something went wrong." });
-    } else {
-      console.log("Email sent successfully", info.response);
-      res.status(200).send({ success: "Email sent successfully" });
-    }
+if (NODE_ENV === "development") {
+  app.use(morgan("dev"));
+  const accessLogStream = fs.createWriteStream("./log/access.log", {
+    flags: "a",
   });
+  app.use(morgan("combined", { stream: accessLogStream }));
+  logInfo("Morgan enabled...");
+}
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to my API" });
 });
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+app.use("/mail", mailRouter);
+app.use("/project", projectRouter);
+app.use("/skill", skillRouter);
+app.use("/contact", contactLinkRouter);
+app.use(errorHandler);
+app.use("*", (req, res) => {
+  res.status(404).json({ message: "Route not found" });
 });
+
+export default app;
