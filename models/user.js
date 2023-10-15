@@ -17,12 +17,27 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  contactLinks: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "ContactLink",
-    },
-  ],
+  instagramLink: {
+    type: String,
+    required: true,
+  },
+  githubLink: {
+    type: String,
+    required: true,
+  },
+  linkedinLink: {
+    type: String,
+    required: true,
+  },
+  whatsAppLink: {
+    type: String,
+    required: true,
+  },
+  mail: {
+    type: String,
+    required: true,
+  },
+
   skills: [
     {
       type: mongoose.Schema.Types.ObjectId,

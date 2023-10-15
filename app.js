@@ -12,7 +12,6 @@ import constant from "./config/constant.js";
 import mailRouter from "./routes/mail.js";
 import projectRouter from "./routes/project.js";
 import skillRouter from "./routes/skill.js";
-import contactLinkRouter from "./routes/contactLink.js";
 import userRouter from "./routes/user.js";
 
 const app = express();
@@ -38,7 +37,7 @@ app.use("/user", userRouter);
 app.use("/mail", mailRouter);
 app.use("/project", projectRouter);
 app.use("/skill", skillRouter);
-app.use("/contact", contactLinkRouter);
+
 app.use(errorHandler);
 app.use("*", (req, res) => {
   res.status(404).json({ message: "Route not found" });

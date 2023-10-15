@@ -9,11 +9,8 @@ import {
   deleteProject,
 } from "../controllers/project.js";
 import { uploadImage } from "../utils/imageUpload.js";
-import {
-  validator,
-  projectSchema,
-  patchSchema,
-} from "../middlewares/validator.js";
+import validator from "../middlewares/validator.js";
+import { projectSchema, patchSchema } from "../middlewares/validator.js";
 
 router.post("/", isAuth, uploadImage, validator(projectSchema), createProject);
 router.patch(

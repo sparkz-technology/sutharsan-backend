@@ -494,3 +494,532 @@
 2023-10-15T06:06:35.236Z [error]: TypeError: Cannot read properties of null (reading 'contactLinks')
     at createContactLink (file:///C:/Users/sparkz/Desktop/sutharsan-backend/controllers/contactLink.js:9:10)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T09:58:41.401Z [error]: StrictPopulateError: Cannot populate path `contactLinks` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:49:12)
+    at populate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\model.js:4366:21)
+    at _populate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\model.js:4326:5)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\model.js:4298:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\model.js:4297:10)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\query.js:2507:11
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\mongoose\lib\query.js:3150:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-15T10:04:35.808Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:4:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:3:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:14:39.054Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:10:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:9:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:16:30.185Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:11:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:10:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:17:38.229Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:45:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:17:46.220Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:45:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:41:51.286Z [error]: Error: "value" length must be less than or equal to 10 characters long
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:50:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:55:08.384Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:56:39.849Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:56:43.292Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:56:50.176Z [error]: Error: "value" length must be less than or equal to 10 characters long
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:50:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T10:58:50.028Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:03:59.338Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:04:38.343Z [error]: TypeError: schema.validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:56:45
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:05:19.076Z [error]: Error: "value" length must be at least 10 characters long
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:50:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:05:39.146Z [error]: TypeError: schema(...).validate is not a function
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:47:52
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:09:28.118Z [error]: Error: "value" length must be less than or equal to 10 characters long
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:51:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:46:27
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:30:39)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T11:48:26.024Z [error]: undefined
+2023-10-15T11:48:31.294Z [error]: undefined
+2023-10-15T12:10:10.795Z [error]: Error: Skill already exists
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/isFieldUnique.js:8:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSkill (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/controllers/skill.js:6:5)
+2023-10-15T12:11:02.167Z [error]: Error: Skill already exists
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/isFieldUnique.js:8:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSkill (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/controllers/skill.js:6:5)
+2023-10-15T12:11:27.325Z [error]: Error: Skill already exists
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/isFieldUnique.js:8:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSkill (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/controllers/skill.js:6:5)
+2023-10-15T12:17:00.969Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:65:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:23:30.417Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:73:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:25:22.365Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:73:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:26:58.015Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:77:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:28:38.481Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:74:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:29:53.884Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:74:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:30:46.048Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:75:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:31:34.647Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:33:24.995Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:34:25.812Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:36:16.101Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:36:20.572Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:37:03.493Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:39:18.256Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:40:10.579Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:32:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:41:24.498Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:80:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:44:57.111Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:79:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:45:47.100Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:45:55.603Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:47:11.067Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:48:25.996Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:74:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:51:01.793Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:75:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:52:05.591Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T12:55:52.886Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:02:08.154Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:17:43.466Z [error]: Error: Schema with external rules must use validateAsync()
+    at new module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at exports.entry (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\validator.js:28:5)
+    at internals.Base.validate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\base.js:548:26)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:70:45
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:19:59.099Z [error]: Error: Schema with external rules must use validateAsync()
+    at new module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at exports.entry (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\validator.js:28:5)
+    at internals.Base.validate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\base.js:548:26)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:70:45
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:30:28.631Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:33:46.483Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:37:30.070Z [error]: Error: Schema with external rules must use validateAsync()
+    at new module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at exports.entry (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\validator.js:28:5)
+    at internals.Base.validate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\base.js:548:26)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:70:45
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T13:38:10.425Z [error]: Error: Schema with external rules must use validateAsync()
+    at new module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at exports.entry (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\validator.js:28:5)
+    at internals.Base.validate (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\joi\lib\base.js:548:26)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:70:45
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:07:51.101Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:87:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:10:49.499Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:86:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:12:22.680Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:86:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:14:21.542Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:87:3
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:18:10.825Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:87:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:23:35.397Z [error]: Error: Skill already exists
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:76:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T14:27:16.611Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:31:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:88:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

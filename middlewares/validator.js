@@ -1,4 +1,6 @@
 import Joi from "joi";
+import { isSkillUnique } from "../utils/isFieldUnique.js";
+import { isProjectUnique } from "../utils/isFieldUnique.js";
 
 const messageSchema = Joi.object({
   name: Joi.string().min(3).max(30).required(),
@@ -21,11 +23,6 @@ const skillSchema = Joi.object({
   category: Joi.string().min(3).max(30).required(),
 });
 
-const contactLink = Joi.object({
-  socialMedia: Joi.string().min(3).max(30).required(),
-  socialMedialink: Joi.string().uri().required(),
-});
-
 const patchSchema = (key) =>
   ({
     title: Joi.string().min(3).max(30).required(),
@@ -37,41 +34,62 @@ const patchSchema = (key) =>
     imageUrl: Joi.string().uri().required(),
     percentage: Joi.number().min(0).max(100).required(),
     category: Joi.string().min(3).max(30).required(),
-    socialMedia: Joi.string().min(3).max(30).required(),
-    socialMedialink: Joi.string().uri().required(),
     homeInfo: Joi.string().min(30).required(),
     aboutInfo: Joi.string().min(30).required(),
     resumeLink: Joi.string().uri().required(),
-  }[key] || {});
+    instagramLink: Joi.string().uri().required(),
+    githubLink: Joi.string().uri().required(),
+    linkedinLink: Joi.string().uri().required(),
+    whatsAppLink: Joi.string().min(10).max(10).required(),
+  }[key] || Joi.any());
 
-const validator = (schema) => (req, res, next) => {
-  if (req.method === "PATCH") {
-    Object.keys(req.body).forEach((key) => {
-      const { error: validateError } = schema(key).validate(req.body[key]);
+const validator = (schema) => async (req, res, next) => {
+  try {
+    if (req.method === "PATCH") {
+      Object.keys(req.body).forEach(async (key) => {
+        if (key === "skill" || key === "title") {
+          const isUnique = await (key === "skill"
+            ? isSkillUnique
+            : isProjectUnique)(req.body[key]);
+          if (isUnique !== true) {
+            const error = new Error(isUnique);
+            error.statusCode = 400;
+            throw error;
+          }
+        }
+        const { error: validateError } = schema(key).validate(req.body[key]);
+        if (validateError) {
+          const { details } = validateError;
+          const error = new Error(details[0].message);
+          error.statusCode = 400;
+          throw error;
+        }
+      });
+    } else {
+      const { error: validateError } = schema.validate(req.body);
+      if (req.body.skill || req.body.title) {
+        const isUnique = await (req.body.skill
+          ? isSkillUnique
+          : isProjectUnique)(req.body.skill || req.body.title);
+        if (isUnique !== true) {
+          console.log("isUnique", isUnique);
+          const error = new Error(isUnique);
+          error.statusCode = 400;
+          throw error;
+        }
+      }
       if (validateError) {
         const { details } = validateError;
         const error = new Error(details[0].message);
         error.statusCode = 400;
         throw error;
       }
-    });
-  } else {
-    const { error: validateError } = schema.validate(req.body);
-    if (validateError) {
-      const { details } = validateError;
-      const error = new Error(details[0].message);
-      error.statusCode = 400;
-      throw error;
     }
+    next();
+  } catch (error) {
+    next(error);
   }
-  next();
 };
 
-export {
-  messageSchema,
-  projectSchema,
-  skillSchema,
-  contactLink,
-  patchSchema,
-  validator,
-};
+export default validator;
+export { messageSchema, projectSchema, skillSchema, patchSchema };

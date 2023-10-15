@@ -1,5 +1,6 @@
- sutharsan-backend
- # Portfolio Backend
+sutharsan-backend
+
+# Portfolio Backend
 
 This is the backend code for your portfolio application. It enables users to send messages to you through a contact form. The backend is built using Express and Nodemailer libraries for handling email sending.
 
@@ -27,6 +28,7 @@ Start the backend server by running `node app.js` or `npm start` in the terminal
 **Description:** This endpoint receives a POST request with data containing the sender's name (`fName`) and the message (`message`). The server sends an email using Nodemailer to the specified recipient (your email address). If the email is sent successfully, it returns a `200` status with a success message; otherwise, it returns a `500` status with an error message.
 
 **Request Payload:**
+
 ```json
 {
   "fName": "sparkz",
@@ -35,6 +37,7 @@ Start the backend server by running `node app.js` or `npm start` in the terminal
 ```
 
 **Response (Success):**
+
 ```json
 {
   "success": "Email sent successfully"
@@ -42,12 +45,9 @@ Start the backend server by running `node app.js` or `npm start` in the terminal
 ```
 
 **Response (Error):**
+
 ```json
 {
   "error": "Something went wrong."
 }
 ```
-
-
-
- 
