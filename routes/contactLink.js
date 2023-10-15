@@ -1,4 +1,6 @@
 import express from "express";
+
+import isAuth from "../middlewares/is-Auth.js";
 import {
   createContactLink,
   updateContactLink,
@@ -12,8 +14,8 @@ import {
 
 const router = express.Router();
 
-router.post("/", validator(contactLink), createContactLink);
-router.patch("/:id", validator(patchSchema), updateContactLink);
-router.delete("/:id", deleteContactLink);
+router.post("/", isAuth, validator(contactLink), createContactLink);
+router.patch("/:id", isAuth, validator(patchSchema), updateContactLink);
+router.delete("/:id", isAuth, deleteContactLink);
 
 export default router;

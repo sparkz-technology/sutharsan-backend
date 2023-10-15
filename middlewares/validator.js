@@ -39,6 +39,9 @@ const patchSchema = (key) =>
     category: Joi.string().min(3).max(30).required(),
     socialMedia: Joi.string().min(3).max(30).required(),
     socialMedialink: Joi.string().uri().required(),
+    homeInfo: Joi.string().min(30).required(),
+    aboutInfo: Joi.string().min(30).required(),
+    resumeLink: Joi.string().uri().required(),
   }[key] || {});
 
 const validator = (schema) => (req, res, next) => {

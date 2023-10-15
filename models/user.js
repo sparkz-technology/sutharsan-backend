@@ -17,18 +17,24 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  contactLinks: {
-    ref: "ContactLink",
-    type: mongoose.Schema.Types.ObjectId,
-  },
-  skills: {
-    ref: "Skill",
-    type: mongoose.Schema.Types.ObjectId,
-  },
-  projects: {
-    ref: "Project",
-    type: mongoose.Schema.Types.ObjectId,
-  },
+  contactLinks: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "ContactLink",
+    },
+  ],
+  skills: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Skill",
+    },
+  ],
+  projects: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Project",
+    },
+  ],
 });
 
 const User = mongoose.model("User", userSchema);

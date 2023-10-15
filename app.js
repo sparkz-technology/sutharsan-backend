@@ -5,12 +5,15 @@ import morgan from "morgan";
 import fs from "fs";
 
 import errorHandler from "./middlewares/errorHandler.js";
+
 import { logInfo } from "./utils/logger.js";
 import constant from "./config/constant.js";
+
 import mailRouter from "./routes/mail.js";
 import projectRouter from "./routes/project.js";
 import skillRouter from "./routes/skill.js";
 import contactLinkRouter from "./routes/contactLink.js";
+import userRouter from "./routes/user.js";
 
 const app = express();
 app.use(bodyParser.json());
@@ -31,6 +34,7 @@ if (NODE_ENV === "development") {
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to my API" });
 });
+app.use("/user", userRouter);
 app.use("/mail", mailRouter);
 app.use("/project", projectRouter);
 app.use("/skill", skillRouter);

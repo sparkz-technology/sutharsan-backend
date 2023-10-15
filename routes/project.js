@@ -1,6 +1,8 @@
 import express from "express";
 const router = express.Router();
 
+import isAuth from "../middlewares/is-Auth.js";
+
 import {
   createProject,
   updateProject,
@@ -13,8 +15,14 @@ import {
   patchSchema,
 } from "../middlewares/validator.js";
 
-router.post("/", uploadImage, validator(projectSchema), createProject);
-router.patch("/:id", uploadImage, validator(patchSchema), updateProject);
-router.delete("/:id", deleteProject);
+router.post("/", isAuth, uploadImage, validator(projectSchema), createProject);
+router.patch(
+  "/:id",
+  isAuth,
+  uploadImage,
+  validator(patchSchema),
+  updateProject
+);
+router.delete("/:id", isAuth, deleteProject);
 
 export default router;

@@ -9,6 +9,8 @@ export const createProject = async (req, res, next) => {
       throw error;
     }
     const project = await Project.create(req.body);
+    req.user.projects.push(project);
+    await req.user.save();
     res.status(201).json(project);
   } catch (error) {
     next(error);
@@ -29,8 +31,10 @@ export const updateProject = async (req, res, next) => {
       throw error;
     }
     Object.keys(req.body).forEach((key) => (project[key] = req.body[key]));
-    console.log(Object.keys(req.body));
     await project.save();
+    req.user.projects.pull(id);
+    req.user.projects.push(project);
+    await req.user.save();
     res.status(200).json(project);
   } catch (error) {
     next(error);
@@ -50,6 +54,8 @@ export const deleteProject = async (req, res, next) => {
       error.status = 404;
       throw error;
     }
+    req.user.projects.pull(id);
+    await req.user.save();
     res.status(200).json({ message: "Project deleted successfully" });
   } catch (error) {
     next(error);

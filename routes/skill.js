@@ -2,6 +2,7 @@ import express from "express";
 
 import { createSkill, updateSkill, deleteSkill } from "../controllers/skill.js";
 import { uploadImage } from "../utils/imageUpload.js";
+import isAuth from "../middlewares/is-Auth.js";
 import {
   validator,
   skillSchema,
@@ -10,8 +11,8 @@ import {
 
 const router = express.Router();
 
-router.post("/", uploadImage, validator(skillSchema), createSkill);
-router.patch("/:id", uploadImage, validator(patchSchema), updateSkill);
-router.delete("/:id", deleteSkill);
+router.post("/", isAuth, uploadImage, validator(skillSchema), createSkill);
+router.patch("/:id", isAuth, uploadImage, validator(patchSchema), updateSkill);
+router.delete("/:id", isAuth, deleteSkill);
 
 export default router;
