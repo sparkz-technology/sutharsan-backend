@@ -8,6 +8,7 @@ import errorHandler from "./middlewares/errorHandler.js";
 
 import { logInfo } from "./utils/logger.js";
 import constant from "./config/constant.js";
+import upload from "./utils/imageUpload.js";
 
 import mailRouter from "./routes/mail.js";
 import projectRouter from "./routes/project.js";
@@ -15,9 +16,10 @@ import skillRouter from "./routes/skill.js";
 import userRouter from "./routes/user.js";
 
 const app = express();
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // for parsing multipart/form-data
+app.use(bodyParser.json({ limit: "50mb" })); // for parsing application/json // for parsing application/x-www-form-urlencoded
 app.use(cors());
+app.use(upload);
 
 const { NODE_ENV } = constant;
 

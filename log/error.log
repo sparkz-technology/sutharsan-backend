@@ -1023,3 +1023,368 @@
     at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
     at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:88:5
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:30:04.359Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:30:37.137Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:35:57.133Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:36:37.810Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:38:24.735Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:38:45.767Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:40:06.938Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:40:07.162Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:40:09.545Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:40:30.596Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:44:03.694Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:46:58.976Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:47:22.407Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:88:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:48:10.587Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:49:02.942Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:88:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:51:38.665Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:52:33.681Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:53:36.597Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T15:55:17.233Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:01:16.845Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:01:21.736Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:01:57.779Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:02:00.194Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:02:29.958Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:04:14.739Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:04:53.763Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:05:44.702Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:06:57.506Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:12:22.122Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:12:42.413Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:14:09.817Z [error]: Error: "skill" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/is-Auth.js:18:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:24:13.100Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:88:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:24:28.071Z [error]: Error: "imageUrl" is required
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:83:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:27:04.104Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:82:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T16:39:14.444Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:39:17.029Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:40:52.464Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:40:57.287Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:41:20.600Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:45:06.546Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:34:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:52:20.540Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:37:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:53:07.377Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:37:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T16:54:40.892Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:37:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\cors\lib\index.js:219:13
+2023-10-15T17:11:00.076Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:12:40.831Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:15:03.571Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:23:44.379Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:32:02.452Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:24:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:86:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:32:13.456Z [error]: MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+2023-10-15T17:36:31.964Z [error]: Error: Unexpected end of form
+    at Multipart._final (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:588:17)
+    at callFinal (node:internal/streams/writable:698:12)
+    at prefinish (node:internal/streams/writable:710:7)
+    at finishMaybe (node:internal/streams/writable:720:5)
+    at Writable.end (node:internal/streams/writable:634:5)
+    at onend (node:internal/streams/readable:705:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-15T17:36:37.431Z [error]: Error: Unexpected end of form
+    at Multipart._final (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\busboy\lib\types\multipart.js:588:17)
+    at callFinal (node:internal/streams/writable:698:12)
+    at prefinish (node:internal/streams/writable:710:7)
+    at finishMaybe (node:internal/streams/writable:720:5)
+    at Writable.end (node:internal/streams/writable:634:5)
+    at onend (node:internal/streams/readable:705:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-15T17:47:30.616Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-15T17:47:32.960Z [error]: Error: "image" is not allowed
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:81:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-16T02:27:29.915Z [error]: Error: Please upload a file
+    at uploadImage (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/utils/imageUpload.js:19:19)
+    at Layer.handle [as handle_request] (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:86:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-16T02:40:20.168Z [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sparkz\Desktop\New folder\sutharsan-backend\node_modules\express\lib\response.js:278:15)
+    at createSkill (file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/controllers/skill.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-16T02:42:39.996Z [error]: Error: Skill already exists
+    at file:///C:/Users/sparkz/Desktop/New%20folder/sutharsan-backend/middlewares/validator.js:74:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -18,7 +18,6 @@ const projectSchema = Joi.object({
 
 const skillSchema = Joi.object({
   skill: Joi.string().min(3).max(30).required(),
-  imageUrl: Joi.string().uri().required(),
   percentage: Joi.number().min(0).max(100).required(),
   category: Joi.string().min(3).max(30).required(),
 });
@@ -31,7 +30,6 @@ const patchSchema = (key) =>
     website: Joi.string().uri().required(),
     technologies: Joi.string().min(3).max(30).required(),
     skill: Joi.string().min(3).max(30).required(),
-    imageUrl: Joi.string().uri().required(),
     percentage: Joi.number().min(0).max(100).required(),
     category: Joi.string().min(3).max(30).required(),
     homeInfo: Joi.string().min(30).required(),

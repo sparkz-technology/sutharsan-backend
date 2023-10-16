@@ -5,7 +5,6 @@ const isFieldUnique = (model, field, errorMessage) => async (value) => {
   try {
     const modelData = await model.findOne({ [field]: value });
     if (modelData) {
-      console.log("modelData", modelData);
       return errorMessage;
     }
     return true;

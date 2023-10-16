@@ -9,7 +9,7 @@ import { skillSchema, patchSchema } from "../middlewares/validator.js";
 const router = express.Router();
 
 router.post("/", isAuth, validator(skillSchema), uploadImage, createSkill);
-router.patch("/:id", isAuth, uploadImage, validator(patchSchema), updateSkill);
+router.patch("/:id", isAuth, validator(patchSchema), uploadImage, updateSkill);
 router.delete("/:id", isAuth, deleteSkill);
 
 export default router;
