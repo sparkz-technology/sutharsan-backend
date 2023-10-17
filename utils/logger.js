@@ -1,5 +1,7 @@
 import fs from "fs";
 import path from "path";
+import constant from "../config/constant.js";
+const { NODE_ENV } = constant;
 
 const __dirname = path.resolve();
 
@@ -16,19 +18,35 @@ const logEmail = (message) => {
 };
 
 const log = (level, message) => {
-  if (!fs.existsSync(path.join(__dirname, "log"))) {
-    fs.mkdirSync(path.join(__dirname, "log"));
+  const logDirectory = path.join(__dirname, "log");
+  if (!fs.existsSync(logDirectory)) {
+    fs.mkdirSync(logDirectory);
   }
+
   const timestamp = new Date().toISOString();
   const logMessage = `${timestamp} [${level}]: ${message}\n`;
   const logFileName = `${level}.log`;
-  const Logger = fs.createWriteStream(
-    path.join(__dirname, "log", logFileName),
-    {
-      flags: "a",
+
+  fs.appendFile(path.join(logDirectory, logFileName), logMessage, (err) => {
+    if (err) {
+      console.log(err);
     }
-  );
-  Logger.write(logMessage);
+  });
 };
+
+const deleteAndRecreateLogs = () => {
+  const logDirectory = path.join(__dirname, "log");
+  if (fs.existsSync(logDirectory)) {
+    fs.readdirSync(logDirectory).forEach((file) => {
+      fs.unlinkSync(path.join(logDirectory, file));
+    });
+  } else {
+    fs.mkdirSync(logDirectory);
+  }
+};
+
+if (NODE_ENV === "development"){
+  deleteAndRecreateLogs();
+}
 
 export { logInfo, logError, logEmail };

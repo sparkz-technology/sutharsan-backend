@@ -1,6 +1,16 @@
 import Project from "../models/project.js";
 import { deleteImage } from "../utils/imageUpload.js";
 
+
+export const getProjects = async (req, res, next) => {
+  try {
+    const projects = await Project.find({});
+    res.status(200).json(projects);
+  } catch (error) {
+    next(error);
+  }
+}
+
 export const createProject = async (req, res, next) => {
   try {
     const project = await Project.create(req.body);

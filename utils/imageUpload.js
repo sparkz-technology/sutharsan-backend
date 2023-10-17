@@ -23,7 +23,7 @@ const uploadImage = (req, res, next) => {
     return next(error);
   }
 
-  const public_id = `${req.file.originalname}-${Date.now()}`;
+  const public_id = `${Date.now()}`;
 
   cloudinary.v2.uploader.upload(
     `data:image/png;base64,${req.file.buffer.toString("base64")}`,
@@ -46,13 +46,13 @@ const uploadImage = (req, res, next) => {
 };
 
 const deleteImage = (imageUrl) => {
-  const imageId = imageUrl.split("/").pop().split(".")[0];
-  cloudinary.v2.uploader.destroy(imageId, (err, res) => {
-    if (err) {
-      console.error("Error deleting image:", err);
-    } else {
-      console.log("Image deleted successfully:", res);
-    }
+ 
+ const parts = imageUrl.split("/");
+const imageId = parts[parts.length - 1].split(".")[0];
+
+  console.log(imageId);//
+  cloudinary.v2.uploader.destroy(imageId, function (error, result) {
+   if(error) return error;
   });
 };
 

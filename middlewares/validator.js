@@ -1,93 +1,66 @@
-import Joi from "joi";
-import { isSkillUnique } from "../utils/isFieldUnique.js";
-import { isProjectUnique } from "../utils/isFieldUnique.js";
+import { validationResult } from 'express-validator';
+import { isSkillUnique } from '../utils/isFieldUnique.js';
+import { isProjectUnique } from '../utils/isFieldUnique.js';
+import { check, body, param } from 'express-validator';
+import e from 'express';
 
-const messageSchema = Joi.object({
-  name: Joi.string().min(3).max(30).required(),
-  email: Joi.string().email().required(),
-  message: Joi.string().min(10).max(100).required(),
-});
+const messageValidation = [
+  body('name').isString().isLength({ min: 3, max: 30 }).notEmpty(),
+  body('email').isEmail().notEmpty(),
+  body('message').isString().isLength({ min: 10, max: 100 }).notEmpty(),
+];
 
-const projectSchema = Joi.object({
-  title: Joi.string().min(3).max(30).required(),
-  description: Joi.string().min(10).max(100).required(),
-  github: Joi.string().uri().required(),
-  website: Joi.string().uri().required(),
-  technologies: Joi.string().min(3).max(30).required(),
-});
+const projectValidation = [
+  body('title').isString().isLength({ min: 3, max: 30 }).notEmpty().custom((value, { req }) => {
+    return isProjectUnique(value,req);
+  }),
+  body('description').isString().isLength({ min: 10, max: 100 }).notEmpty(),
+  body('github').isURL().notEmpty(),
+  body('website').isURL().notEmpty(),
+  body('technologies').isString().isLength({ min: 3, max: 30 }).notEmpty(),
+];
 
-const skillSchema = Joi.object({
-  skill: Joi.string().min(3).max(30).required(),
-  percentage: Joi.number().min(0).max(100).required(),
-  category: Joi.string().min(3).max(30).required(),
-});
+const skillValidation = [
+  body('skill').isString().isLength({ min: 3, max: 30 }).notEmpty().custom((value, { req }) => {
+    return isSkillUnique(value,req);
+  }),
+  body('percentage').isFloat({ min: 0, max: 100 }).notEmpty(),
+  body('category').isString().isLength({ min: 3, max: 30 }).notEmpty(),
+];
 
-const patchSchema = (key) =>
-  ({
-    title: Joi.string().min(3).max(30).required(),
-    description: Joi.string().min(10).max(100).required(),
-    github: Joi.string().uri().required(),
-    website: Joi.string().uri().required(),
-    technologies: Joi.string().min(3).max(30).required(),
-    skill: Joi.string().min(3).max(30).required(),
-    percentage: Joi.number().min(0).max(100).required(),
-    category: Joi.string().min(3).max(30).required(),
-    homeInfo: Joi.string().min(30).required(),
-    aboutInfo: Joi.string().min(30).required(),
-    resumeLink: Joi.string().uri().required(),
-    instagramLink: Joi.string().uri().required(),
-    githubLink: Joi.string().uri().required(),
-    linkedinLink: Joi.string().uri().required(),
-    whatsAppLink: Joi.string().min(10).max(10).required(),
-  }[key] || Joi.any());
+const patchValidation =[
 
-const validator = (schema) => async (req, res, next) => {
-  try {
-    if (req.method === "PATCH") {
-      Object.keys(req.body).forEach(async (key) => {
-        if (key === "skill" || key === "title") {
-          const isUnique = await (key === "skill"
-            ? isSkillUnique
-            : isProjectUnique)(req.body[key]);
-          if (isUnique !== true) {
-            const error = new Error(isUnique);
-            error.statusCode = 400;
-            throw error;
-          }
-        }
-        const { error: validateError } = schema(key).validate(req.body[key]);
-        if (validateError) {
-          const { details } = validateError;
-          const error = new Error(details[0].message);
-          error.statusCode = 400;
-          throw error;
-        }
-      });
-    } else {
-      const { error: validateError } = schema.validate(req.body);
-      if (req.body.skill || req.body.title) {
-        const isUnique = await (req.body.skill
-          ? isSkillUnique
-          : isProjectUnique)(req.body.skill || req.body.title);
-        if (isUnique !== true) {
-          console.log("isUnique", isUnique);
-          const error = new Error(isUnique);
-          error.statusCode = 400;
-          throw error;
-        }
+  body('title').isString().isLength({ min: 3, max: 30 }).optional().custom((value, { req }) => {
+    return isProjectUnique(value,req);
+  }),
+  body('description').isString().isLength({ min: 10, max: 100 }).optional(),
+  body('github').isURL().optional(),
+  body('website').isURL().optional(),
+  body('technologies').isString().isLength({ min: 3, max: 30 }).optional(),
+  body('skill').isString().isLength({ min: 3, max: 30 }).optional().custom((value, { req }) => {
+    return isSkillUnique(value,req);
+  }),
+  body('percentage').isFloat({ min: 0, max: 100 }).optional(),
+  body('category').isString().isLength({ min: 3, max: 30 }).optional(),
+
+
+]
+    
+
+const validator = (schema) => {
+  return async (req, res, next) => {
+    try {
+      // Check for validation errors
+      const errors = validationResult(req);
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
       }
-      if (validateError) {
-        const { details } = validateError;
-        const error = new Error(details[0].message);
-        error.statusCode = 400;
-        throw error;
-      }
+      next();
+    } catch (error) {
+      next(error);
     }
-    next();
-  } catch (error) {
-    next(error);
-  }
+  };
 };
-
+// export { messageSchema, projectSchema, skillSchema, patchSchema };
+export { messageValidation, projectValidation, skillValidation, patchValidation};
 export default validator;
-export { messageSchema, projectSchema, skillSchema, patchSchema };

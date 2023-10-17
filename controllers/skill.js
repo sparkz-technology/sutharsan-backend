@@ -1,6 +1,15 @@
 import Skill from "../models/skill.js";
 import { deleteImage } from "../utils/imageUpload.js";
 
+export const getSkills = async (req, res, next) => {
+  try {
+    const skills = await Skill.find();
+    res.status(200).json(skills);
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const createSkill = async (req, res, next) => {
   try {
     const skill = await Skill.create(req.body);
@@ -33,7 +42,9 @@ export const updateSkill = async (req, res, next) => {
         throw error;
       }
     }
+    console.log(req.body);
     Object.keys(req.body).forEach((key) => (skill[key] = req.body[key]));
+    console.log(skill);
     await skill.save();
     req.user.skills.pull(req.params.id);
     req.user.skills.push(skill);
