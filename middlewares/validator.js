@@ -17,7 +17,7 @@ const projectValidation = [
   body('description').isString().isLength({ min: 10, max: 100 }).notEmpty(),
   body('github').isURL().notEmpty(),
   body('website').isURL().notEmpty(),
-  body('technologies').isString().isLength({ min: 3, max: 30 }).notEmpty(),
+  body('technologies').isString().isLength({ min: 3, max: 100 }).notEmpty(),
 ];
 
 const skillValidation = [
@@ -36,7 +36,7 @@ const patchValidation =[
   body('description').isString().isLength({ min: 10, max: 100 }).optional(),
   body('github').isURL().optional(),
   body('website').isURL().optional(),
-  body('technologies').isString().isLength({ min: 3, max: 30 }).optional(),
+  body('technologies').isString().isLength({ min: 3, max: 100 }).optional(),
   body('skill').isString().isLength({ min: 3, max: 30 }).optional().custom((value, { req }) => {
     return isSkillUnique(value,req);
   }),

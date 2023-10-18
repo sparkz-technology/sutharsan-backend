@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  whatsAppLink: {
+  WhatsAppNumber: {
     type: String,
     required: true,
   },

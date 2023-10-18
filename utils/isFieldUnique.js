@@ -7,9 +7,9 @@ const isFieldUnique = (Model, field, errorMessage) => async (value,req) => {
       console.log(req.params.id,req.method)
       const existingModel = await Model.findOne({ [field]: value });
       console.log(existingModel)
-     if ( existingModel._id.toString() !== req.params.id) {
-       return Promise.reject(errorMessage);
-     }
+      if (existingModel && existingModel._id.toString() !== req.params.id) {
+        return Promise.reject(errorMessage);
+      }
      return Promise.resolve();
     }
     const existingModel = await Model.findOne({ [field]: value });
