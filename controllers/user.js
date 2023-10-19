@@ -3,6 +3,15 @@ import { deleteImage } from "../utils/imageUpload.js";
 
 export const getUser = async (req, res, next) => {
   try {
+    const user = req.user;
+    res.status(200).json(user);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export const getUserDetails = async (req, res, next) => {
+  try {
     const userId = req.body.userId || "652b7193f2e37bd54e8de7df";
     const user = await User.findById(userId)
       .populate("skills")
