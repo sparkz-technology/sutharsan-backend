@@ -4,6 +4,8 @@ import { deleteImage } from "../utils/imageUpload.js";
 export const getUser = async (req, res, next) => {
   try {
     const user = req.user;
+    user.views += 1;  
+    await user.save();
     res.status(200).json(user);
   } catch (error) {
     next(error);
