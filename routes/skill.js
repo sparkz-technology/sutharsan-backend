@@ -13,7 +13,7 @@ import { skillValidation, patchValidation } from "../middlewares/validator.js";
 
 const router = express.Router();
 
-router.get("/", getSkills);
+router.get("/",isAuth, getSkills);
 router.post("/", isAuth,skillValidation, validator(skillValidation), uploadImage, createSkill);
 router.patch("/:id", isAuth,patchValidation, validator(patchValidation), uploadImage, updateSkill);
 router.delete("/:id", isAuth, deleteSkill);
