@@ -31,7 +31,12 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // for parsing multipart/form-data
 app.use(bodyParser.json({ limit: "50mb" })); // for parsing application/json // for parsing application/x-www-form-urlencoded
-app.use(cors());
+app.use(cors(
+  {
+    origin: "*", // allow to server to accept request from different origin
+    credentials: true,
+  },
+));
 app.use(upload);
 
 const { NODE_ENV } = constant;

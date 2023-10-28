@@ -11,6 +11,7 @@ const constant = {
   CLOUD_API_SECRET: process.env.CLOUD_API_SECRET,
   MONGO_URI: process.env.MONGO_URI,
   JWT_SECRET: process.env.JWT_SECRET,
+  ClIEND_URL: process.env.ClIEND_URL,
   github: {
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
