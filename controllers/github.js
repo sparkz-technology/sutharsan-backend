@@ -12,6 +12,7 @@ export const githubCallback = (req, res) => {
     session: false,
   }, (authErr, user, info) => {
     if (authErr) {
+      console.log(authErr);
       // handle authentication error
       return res.redirect(`${ClIEND_URL}`);
     }
