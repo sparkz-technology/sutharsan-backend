@@ -3,7 +3,6 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import fs from "fs";
-import path from "path";
 import passport from "passport";
 import session from "express-session";
 
@@ -49,14 +48,7 @@ if (NODE_ENV === "development") {
   app.use(morgan("combined", { stream: accessLogStream }));
   logInfo("Morgan enabled...");
 }
-if (NODE_ENV === "development") {
-  const __dirname = path.resolve();
-  const reactPath = path.join(__dirname, "../sutharsan/dist");
-  app.use(express.static(path.join(__dirname, "../sutharsan/dist")));
-  app.get("*", (req, res) => {
-    res.sendFile(reactPath);
-  });
-}
+
 
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to my API" });
