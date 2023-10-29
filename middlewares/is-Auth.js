@@ -20,7 +20,7 @@ const isAuth = async (req, res, next) => {
     //   throw error;
     // }
     const token = req.cookies.token;
-    if (!token) {
+    if(!token){
       const error = new Error("Token is required");
       error.statusCode = 400;
       throw error;

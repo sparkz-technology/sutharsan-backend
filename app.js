@@ -36,6 +36,11 @@ app.use(cors(
   {
     origin: true,// true allow all url to access
     credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
+    methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
+    preflightContinue: true,// to allow cookies
+    optionsSuccessStatus: 200,
+
   },
 ));
 app.use(upload);
