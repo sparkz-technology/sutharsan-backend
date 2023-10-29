@@ -30,17 +30,12 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // for parsing multipart/form-data
-app.use(bodyParser.json({ limit: "50mb" })); // for parsing application/json // for parsing application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true })); // for parsing multipart/form-data
+app.use(bodyParser.json({ }));
 app.use(cors(
   {
     origin: "https://sutharsan.vercel.app",
     credentials: true,
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
-    methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
-    preflightContinue: true,// to allow cookies
-    optionsSuccessStatus: 200,
-
   },
 ));
 app.use(upload);
