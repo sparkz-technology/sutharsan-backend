@@ -2,43 +2,24 @@ import jwt from 'jsonwebtoken';
 import axios from 'axios';
 import User from '../models/user.js';
 import constant from '../config/constant.js';
-const { github:{clientID,callbackURL,clientSecret},CLIEND_URL,JWT_SECRET} = constant;
+const { JWT_SECRET,CLIEND_URL } = constant;
+export const githubLogin =  passport.authenticate('github', { scope: [ 'user:email' ] });
 
-export const githubCallback = async(req, res, next) => {
-  const { code } = req.query;
-  try {
-    const accessToken = await getAccessToken(code);
-    const githubData = await getUserData(accessToken);
-    let user = await User.findOne({ githubId: githubData.id });
-    if(!user){
-      const error = new Error('You are not authorized to access this page');
-      error.status = 401;
-      return next(error);
+export const githubCallback = (req, res, next) => {
+  passport.authenticate('github', {
+    // failureRedirect: `${CLIEND_URL}login`,
+    // successRedirect: `${CLIEND_URL}admin`,
+    session: false }, async (err, user) => {
+    if (err) {
+      return next(err);
+        
     }
-  
-    return  res.redirect("success");
-  } catch (error) {
-    next(error);
-  }
+    if (!user) {
+      return res.redirect(`${CLIEND_URL}login`);
+    }
+    const token =  jwt.sign({ id: user.githubId, userId: user._id }, JWT_SECRET, { expiresIn: '1d' }) ;
+    res.cookie('token', token, { maxAge: 1000 * 60 * 60 * 24, httpOnly: true }).redirect(`${CLIEND_URL}admin`);
+  })(req, res, next);
 };
-async function getAccessToken(code) {
-  const response = await axios.post('https://github.com/login/oauth/access_token', {
-    client_id: clientID,
-    client_secret: clientSecret,
-    code,
-    redirect_uri: callbackURL,
-  }, {
-    headers: { 'Accept': 'application/json' }
-  });
-  return response.data.access_token;
-}
-
-async function getUserData(accessToken) {
-  const response = await axios.get('https://api.github.com/user', {
-    headers: { 'Authorization': `token ${accessToken}` }
-  });
-  return response.data;
-}
-
 
 
