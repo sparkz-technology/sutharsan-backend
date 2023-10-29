@@ -5,6 +5,7 @@ import morgan from "morgan";
 import fs from "fs";
 import passport from "passport";
 import session from "express-session";
+import cookieParser from "cookie-parser";
 
 
 import errorHandler from "./middlewares/errorHandler.js";
@@ -21,6 +22,7 @@ import userRouter from "./routes/user.js";
 import githubRouter from "./routes/github.js";
 
 const app = express();
+app.use(cookieParser());
 app.use(session({
   secret: "secret",
   resave: true,
@@ -32,7 +34,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // for parsin
 app.use(bodyParser.json({ limit: "50mb" })); // for parsing application/json // for parsing application/x-www-form-urlencoded
 app.use(cors(
   {
-    origin: "*", // allow to server to accept request from different origin
+    origin: true,// true allow all url to access
     credentials: true,
   },
 ));
