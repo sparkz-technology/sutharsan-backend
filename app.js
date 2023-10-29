@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // for parsin
 app.use(bodyParser.json({ limit: "50mb" })); // for parsing application/json // for parsing application/x-www-form-urlencoded
 app.use(cors(
   {
-    origin: true,// true allow all url to access
+    origin: "https://sutharsan.vercel.app/",
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
     methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
