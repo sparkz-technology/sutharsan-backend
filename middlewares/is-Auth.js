@@ -7,18 +7,19 @@ const { JWT_SECRET } = constant;
 
 const isAuth = async (req, res, next) => {
   try {
-     const AuthHeader = req.get("Authorization");
-    if (!AuthHeader) {
-      const error = new Error("Authorization header is required");
-      error.statusCode = 400;
-      throw error;
-    }
-    const token = AuthHeader.split(" ")[1];
-    if (!token) {
-      const error = new Error("Token is required");
-      error.statusCode = 400;
-      throw error;
-    }
+    //  const AuthHeader = req.get("Authorization");
+    // if (!AuthHeader) {
+    //   const error = new Error("Authorization header is required");
+    //   error.statusCode = 400;
+    //   throw error;
+    // }
+    // const token = AuthHeader.split(" ")[1];
+    // if (!token) {
+    //   const error = new Error("Token is required");
+    //   error.statusCode = 400;
+    //   throw error;
+    // }
+    const token = req.cookies.token;
     const decodedToken = jwt.verify(token, "secret");
     if (!decodedToken) {
       const error = new Error("Invalid token");
