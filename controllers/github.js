@@ -1,7 +1,6 @@
 import jwt from 'jsonwebtoken';
-import axios from 'axios';
-import User from '../models/user.js';
 import constant from '../config/constant.js';
+import passport from 'passport';
 const { JWT_SECRET,CLIEND_URL } = constant;
 export const githubLogin =  passport.authenticate('github', { scope: [ 'user:email' ] });
 
@@ -12,7 +11,6 @@ export const githubCallback = (req, res, next) => {
     session: false }, async (err, user) => {
     if (err) {
       return next(err);
-        
     }
     if (!user) {
       return res.redirect(`${CLIEND_URL}login`);
