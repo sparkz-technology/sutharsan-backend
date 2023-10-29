@@ -6,7 +6,7 @@ const {CLIEND_URL} = constant;
 const router = express.Router();
 
 router.get('/github/callback', githubCallback);
-router.get('/success', (req, res, next) => {
+router.get('/github/success', (req, res, next) => {
   res.cookie('token', "token");
   res.redirect(CLIEND_URL);
   
