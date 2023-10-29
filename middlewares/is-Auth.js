@@ -20,6 +20,11 @@ const isAuth = async (req, res, next) => {
     //   throw error;
     // }
     const token = req.cookies.token;
+    if (!token) {
+      const error = new Error("Token is required");
+      error.statusCode = 400;
+      throw error;
+    }
     const decodedToken = jwt.verify(token, "secret");
     if (!decodedToken) {
       const error = new Error("Invalid token");

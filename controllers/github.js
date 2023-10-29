@@ -16,8 +16,9 @@ export const githubCallback = (req, res, next) => {
       return res.redirect(`${CLIEND_URL}login`);
     }
     const token =  jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: '1d' }) ;
-    res.cookie('token', token, { httpOnly: true });
-    res.redirect(`${CLIEND_URL}success/${user._id}`); 
+    res.cookie('token', token, { httpOnly: true }).redirect(`${CLIEND_URL}admin`);
+    res.send();
+    // res.redirect(`${CLIEND_URL}success/${user._id}`); 
   })(req, res, next);
 };
 
