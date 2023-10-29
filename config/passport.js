@@ -3,12 +3,14 @@ import GitHubStrategy from 'passport-github2';
 import constant from './constant.js';
 import User from '../models/user.js';
 
+const { github:{callbackURL,clientID,clientSecret} } = constant;
+
 passport.use(
   new GitHubStrategy(
     {
-      clientID: 'be5a9847d65b1697867d',
-      clientSecret: 'c4659c3c1d48741b6713be5cd775412a685a8007',
-      callbackURL: 'http://localhost:8000/auth/github/callback',
+      clientID: clientID,
+      clientSecret: clientSecret,
+      callbackURL: callbackURL,
       passReqToCallback: true
     },
     async (req, accessToken, refreshToken, profile, done) => {
