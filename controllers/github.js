@@ -33,10 +33,10 @@ export const githubLogin = passport.authenticate('github', { scope: ['user:email
 export const githubCallback = (req, res, next) => {
   passport.authenticate('github', { session: false }, async (err, user) => {
     if (err) {
-      return res.redirect(`${CLIENT_URL}login?error=${encodeURIComponent('Failed to authenticate')}`);
+      return next(err);
     }
     if (!user) {
-      return res.redirect(`${CLIENT_URL}login?error=${encodeURIComponent('User not found')}`);
+      return res.redirect(`${CLIENT_URL}login`);
     }
     
     try {
@@ -44,7 +44,7 @@ export const githubCallback = (req, res, next) => {
       res.cookie('token', token, { maxAge: 86400000 });
       return res.redirect(`${CLIENT_URL}admin`);
     } catch (error) {
-      return res.redirect(`${CLIENT_URL}login?error=${encodeURIComponent('Token creation failed')}`);
+      return next(error);
     }
   })(req, res, next);
 };
