@@ -25,8 +25,11 @@ const app = express();
 app.use(cookieParser());
 app.use(session({
   secret: "secret",
-  resave: true,
-  saveUninitialized: true,
+  resave: false,//don't save session if unmodified
+  saveUninitialized: false,// don't create session until something stored
+  cookie: {
+    maxAge: 1000 * 60 * 60,
+  },
 }));
 app.use(passport.initialize());
 app.use(passport.session());
@@ -34,7 +37,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing multipart/for
 app.use(bodyParser.json({ }));
 app.use(cors(
   {
-    origin: "https://sutharsan.vercel.app",
+    origin: true,
     credentials: true,
   },
 ));

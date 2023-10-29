@@ -1,6 +1,11 @@
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
+  accessToken:{
+    type: String,
+    default: null,
+  },
+  
   githubId: {
     type: String,
     default: null,

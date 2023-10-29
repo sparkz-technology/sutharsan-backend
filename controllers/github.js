@@ -1,25 +1,43 @@
-import jwt from 'jsonwebtoken';
+import axios from 'axios';
+import User from '../models/user.js';
 import constant from '../config/constant.js';
-import passport from 'passport';
-const { JWT_SECRET,CLIEND_URL } = constant;
-export const githubLogin =  passport.authenticate('github', { scope: [ 'user:email' ] });
+const { github:{clientID,callbackURL,clientSecret},CLIEND_URL} = constant;
 
-export const githubCallback = (req, res, next) => {
-  passport.authenticate('github', {
-    // failureRedirect: `${CLIEND_URL}login`,
-    // successRedirect: `${CLIEND_URL}admin`,
-    session: false }, async (err, user) => {
-    if (err) {
-      return next(err);
+export const githubCallback = async(req, res, next) => {
+  const { code } = req.query;
+  try {
+    const accessToken = await getAccessToken(code);
+    const githubData = await getUserData(accessToken);
+    const user = await User.findOne({githubId:githubData.id})
+    if(!user){
+      const error = new Error('You are not authorized to access this page');
+      error.status = 401;
+      return next(error);
     }
-    if (!user) {
-      return res.redirect(`${CLIEND_URL}login`);
-    }
-    const token =  jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: '1d' }) ;
-    res.cookie('token', token, { httpOnly: true }).redirect(`${CLIEND_URL}admin`);
-    res.send();
-    // res.redirect(`${CLIEND_URL}success/${user._id}`); 
-  })(req, res, next);
+    user.accessToken = accessToken;
+    await user.save();
+    return  res.redirect(`${CLIEND_URL}success/${user.accessToken}`);
+  } catch (error) {
+    next(error);
+  }
 };
+async function getAccessToken(code) {
+  const response = await axios.post('https://github.com/login/oauth/access_token', {
+    client_id: clientID,
+    client_secret: clientSecret,
+    code,
+    redirect_uri: callbackURL,
+  }, {
+    headers: { 'Accept': 'application/json' }
+  });
+  return response.data.access_token;
+}
+
+async function getUserData(accessToken) {
+  const response = await axios.get('https://api.github.com/user', {
+    headers: { 'Authorization': `token ${accessToken}` }
+  });
+  return response.data;
+}
 
 
