@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "builds": [
@@ -8,8 +9,16 @@
   ],
   "routes": [
     {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/github/callback",
+      "dest": "server.js"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/server.js"
+      "dest": "server.js"
     }
   ]
 }
+
