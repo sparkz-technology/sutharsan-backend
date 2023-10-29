@@ -16,7 +16,7 @@ export const githubCallback = async(req, res, next) => {
       return next(error);
     }
   
-    return  res.redirect("/success");
+    return  res.redirect("success");
   } catch (error) {
     next(error);
   }
