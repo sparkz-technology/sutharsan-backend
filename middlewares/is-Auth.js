@@ -6,6 +6,7 @@ import constant from "../config/constant.js";
 const isAuth = async (req, res, next) => {
   try {
      const AuthHeader = req.get("Authorization");
+     console.log(AuthHeader);
     if (!AuthHeader) {
       const error = new Error("Authorization header is required");
       error.statusCode = 400;
