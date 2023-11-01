@@ -21,24 +21,23 @@ import githubRouter from "./routes/github.js";
 const { NODE_ENV,CLIEND_URL } = constant;
 
 const app = express();
-app.use(cookieParser(
-  "secret",
-  {
-    maxAge: 1000 * 60 * 60 * 24 * 30,
-    httpOnly: true,
-    signed: true,//signed cookie enable to access req.signedCookies 
-  },
-
-
-));
-app.use(bodyParser.urlencoded({ extended: true })); // for parsing multipart/form-data
-app.use(bodyParser.json({ }));
 app.use(cors(
   {
     origin:CLIEND_URL,
     credentials:true,
   }
 ));
+app.use(cookieParser(
+  "secret",
+  {
+    maxAge: 1000 * 60 * 60 * 24 * 30,//30 days
+    httpOnly: true,//only http request can access cookie not client side js 
+    signed: true,//signed cookie enable to access req.signedCookies 
+    
+  },
+));
+app.use(bodyParser.urlencoded({ extended: true })); // for parsing multipart/form-data
+app.use(bodyParser.json({ }));
 app.use(upload);
 
 
