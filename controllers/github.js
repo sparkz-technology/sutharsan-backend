@@ -15,7 +15,7 @@ export const githubCallback = async(req, res, next) => {
     user.accessToken = accessToken;
     await user.save();
     res.cookie('token',user.accessToken,{maxAge: 1000 * 60 * 60 * 24 * 30,httpOnly: true,signed: true,
-    domain: 'sutharsan.vercel.app',path: '/',secure: true,
+    secure: true,
     });
     
     return  res.redirect(`${CLIEND_URL}/success/${user.accessToken}`);
