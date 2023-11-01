@@ -13,8 +13,6 @@ export const githubCallback = async(req, res, next) => {
       res.redirect(`${CLIEND_URL}/error`);
     }
     user.accessToken = accessToken;
-    console.log(accessToken);
-    console.log(user.accessToken);
     await user.save();
     return  res.redirect(`${CLIEND_URL}/success/${user.accessToken}`);
   } catch (error) {
