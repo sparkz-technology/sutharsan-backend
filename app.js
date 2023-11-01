@@ -3,8 +3,6 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import fs from "fs";
-import passport from "passport";
-import session from "express-session";
 import cookieParser from "cookie-parser";
 
 
@@ -13,7 +11,6 @@ import errorHandler from "./middlewares/errorHandler.js";
 import { logInfo } from "./utils/logger.js";
 import constant from "./config/constant.js";
 import upload from "./utils/imageUpload.js";
-import  "./config/passport.js";
 
 import mailRouter from "./routes/mail.js";
 import projectRouter from "./routes/project.js";
@@ -21,29 +18,29 @@ import skillRouter from "./routes/skill.js";
 import userRouter from "./routes/user.js";
 import githubRouter from "./routes/github.js";
 
+const { NODE_ENV,CLIEND_URL } = constant;
+
 const app = express();
-app.use(cookieParser());
-app.use(session({
-  secret: "secret",
-  resave: false,//don't save session if unmodified
-  saveUninitialized: false,// don't create session until something stored
-  cookie: {
-    maxAge: 1000 * 60 * 60,
+app.use(cookieParser(
+  "secret",
+  {
+    maxAge: 1000 * 60 * 60 * 24 * 30,
+    httpOnly: true,
+    signed: true,
   },
-}));
-app.use(passport.initialize());
-app.use(passport.session());
+
+
+));
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing multipart/form-data
 app.use(bodyParser.json({ }));
 app.use(cors(
   {
-    origin: true,
-    credentials: true,
-  },
+    origin:CLIEND_URL,
+    credentials:true,
+  }
 ));
 app.use(upload);
 
-const { NODE_ENV } = constant;
 
 if (NODE_ENV === "development") {
   app.use(morgan("dev"));

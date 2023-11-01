@@ -5,19 +5,22 @@ import constant from "../config/constant.js";
 
 const isAuth = async (req, res, next) => {
   try {
-     const AuthHeader = req.get("Authorization");
-     console.log(AuthHeader);
-    if (!AuthHeader) {
-      const error = new Error("Authorization header is required");
-      error.statusCode = 400;
-      throw error;
-    }
-    const token = AuthHeader.split(" ")[1];
-    if (!token) {
-      const error = new Error("Token is required");
-      error.statusCode = 400;
-      throw error;
-    }
+    // req.cookies = req.signedCookies;
+    console.log(req.cookies.token);
+    //  const AuthHeader = req.get("Authorization");
+    //  console.log(AuthHeader);
+    // if (!AuthHeader) {
+    //   const error = new Error("Authorization header is required");
+    //   error.statusCode = 400;
+    //   throw error;
+    // }
+    // const token = AuthHeader.split(" ")[1];
+    // if (!token) {
+    //   const error = new Error("Token is required");
+    //   error.statusCode = 400;
+    //   throw error;
+    // }
+    const token = req.cookies.token;
     const user = await User.findOne({ accessToken: token });
     if (!user) {
       const error = new Error("User not found");
