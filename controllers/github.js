@@ -10,15 +10,13 @@ export const githubCallback = async(req, res, next) => {
     const githubData = await getUserData(accessToken);
     const user = await User.findOne({githubId:githubData.id})
     if(!user){
-      const error = new Error('You are not authorized to access this page');
-      error.status = 401;
-      return next(error);
+      res.redirect(`${CLIEND_URL}/error`);
     }
     user.accessToken = accessToken;
     console.log(accessToken);
     console.log(user.accessToken);
     await user.save();
-    return  res.redirect(`${CLIEND_URL}success/${user.accessToken}`);
+    return  res.redirect(`${CLIEND_URL}/success/${user.accessToken}`);
   } catch (error) {
     next(error);
   }
