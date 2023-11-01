@@ -26,7 +26,7 @@ app.use(cookieParser(
   {
     maxAge: 1000 * 60 * 60 * 24 * 30,
     httpOnly: true,
-    signed: true,
+    signed: true,//signed cookie enable to access req.signedCookies 
   },
 
 

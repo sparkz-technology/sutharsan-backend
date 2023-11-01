@@ -6,6 +6,7 @@ import constant from "../config/constant.js";
 const isAuth = async (req, res, next) => {
   try {
     console.log(req.cookies,"token");
+    console.log(req.signedCookies,"signedCookies");
     const token = req.cookies.token;
     const user = await User.findOne({ accessToken: token });
     if (!user) {
