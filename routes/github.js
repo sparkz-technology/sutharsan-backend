@@ -1,8 +1,8 @@
 import express from 'express';
-import { githubCallback } from '../controllers/github.js';
+import { githubCallback ,githubLogin} from '../controllers/github.js';
 
 const router = express.Router();
-// router.get('/github', githubLogin);
+router.post('/github', githubLogin);
 router.get('/github/callback', githubCallback);
 
 export default router;

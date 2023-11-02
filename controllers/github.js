@@ -1,7 +1,9 @@
 import axios from 'axios';
 import User from '../models/user.js';
 import constant from '../config/constant.js';
-const { github:{clientID,callbackURL,clientSecret},CLIEND_URL} = constant;
+import jwt from 'jsonwebtoken';
+
+const { github:{clientID,callbackURL,clientSecret},CLIEND_URL,JWT_SECRET} = constant;
 
 export const githubCallback = async(req, res, next) => {
   const { code } = req.query;
@@ -14,15 +16,29 @@ export const githubCallback = async(req, res, next) => {
     }
     user.accessToken = accessToken;
     await user.save();
-    res.cookie('token',user.accessToken,{maxAge: 1000 * 60 * 60 * 24 * 30,httpOnly: true,signed: true,
-    secure: true,
-    });
-    
     return  res.redirect(`${CLIEND_URL}/success/${user.accessToken}`);
   } catch (error) {
     next(error);
   }
 };
+
+export const githubLogin = async(req, res, next) => {
+  try{
+    const {accessToken} = req.body;
+    console.log(accessToken);
+    const user = await User.findOne({accessToken});
+    if(!user){
+    const error = new Error('You are not authorized to access this route');
+    error.statusCode = 404;
+    throw error;
+    }
+    const token = jwt.sign({id:user._id},JWT_SECRET,{expiresIn:3600});//1 hour
+    res.json({token});
+  }
+  catch(error){
+    next(error);
+  }
+}
 async function getAccessToken(code) {
   const response = await axios.post('https://github.com/login/oauth/access_token', {
     client_id: clientID,

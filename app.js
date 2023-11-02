@@ -3,7 +3,10 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import fs from "fs";
+import path from "path";
 import cookieParser from "cookie-parser";
+
+
 
 
 import errorHandler from "./middlewares/errorHandler.js";
@@ -23,7 +26,7 @@ const { NODE_ENV,CLIEND_URL } = constant;
 const app = express();
 app.use(cors(
   {
-    origin:CLIEND_URL,
+    origin:true,
     credentials:true,
   }
 ));
@@ -49,6 +52,14 @@ if (NODE_ENV === "development") {
   app.use(morgan("combined", { stream: accessLogStream }));
   logInfo("Morgan enabled...");
 }
+// if (NODE_ENV === "production") {
+//   const __dirname = path.resolve();
+// const distDir = __dirname + "/dist";
+// app.use(express.static(distDir));
+// app.get("*", (req, res) => {
+//   res.sendFile(distDir)
+// });
+// }
 
 
 app.get("/", (req, res) => {
