@@ -7,7 +7,7 @@ const { JWT_SECRET } = constant;
 const isAuth = async (req, res, next) => {
   try {
     const authHeader = req.headers.authorization;
-    const token = authHeader.split(" ")[1];
+    const token = authHeader?.split(" ")[1];
     console.log(token);
     if (!token) {
       const error = new Error("Not authenticated");
